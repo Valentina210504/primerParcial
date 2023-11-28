@@ -6,7 +6,7 @@
 .contenedor {
     width: 100%;
     height: 100vh;
-    background: url(Imagenes/modelo4.jpg);
+    background: url(Imagenes/modelo.jpeg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -54,7 +54,7 @@ nav ul li a{
     flex-basis: 50%;
 }
 h1{
-    color: rgba(149, 93, 187, 0.719);
+    color: rgba(203, 182, 216, 0.719);
     font-size: 70px ;
 }
 p{
@@ -67,7 +67,7 @@ button{
     color: rgb(0, 0, 0);
     font-size: 10px;
     padding: 12px 0;
-    background: #8b5d8fcb;
+    background: #b7adb8cb;
     border: 4;
     border-radius: 20px;
     outline: none;
@@ -77,7 +77,7 @@ button{
 .multimedia{
     width: 200px;
     height: 230px;
-    display: inline-block;
+    
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
@@ -86,18 +86,19 @@ button{
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+    display: flex;
 }
 .multimedia1{
-    background-image: url(Imagenes/sombras.jpg);
+    background-image: url(Imagenes/sombras.jpeg);
 }
 .multimedia2{
-    background-image: url(Imagenes/labial.jpg);
+    background-image: url(Imagenes/labial.jpeg);
 }
 .multimedia3{
-    background-image: url(Imagenes/delineador.jpg);
+    background-image: url(Imagenes/delineado.jpeg);
 }
 .multimedia4{
-    background-image: url(Imagenes/brochas.jpg);
+    background-image: url(Imagenes/brocha.jpeg);
 }
 
 .multimedia:hover{
